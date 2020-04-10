@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// import './index.css';
 import App from './App';
 
 import './assets/css/style.css'
@@ -17,7 +17,7 @@ import "slick-carousel/slick/slick.css";
 // import './assets/lib/slick/slick-theme.css'
 import "slick-carousel/slick/slick-theme.css";
 import './assets/css/responsive.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+// import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import * as serviceWorker from './serviceWorker';
 

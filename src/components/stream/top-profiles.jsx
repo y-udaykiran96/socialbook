@@ -10,6 +10,7 @@ export default class TopProfiles extends Component {
           <i class="la la-ellipsis-v"></i>
         </div>
         <div className="profiles-slider slick-initialized slick-slider">
+          <span className="slick-previous slick-arrow" style={{ display: "inline" }}></span>
           <div className="slick-list-draggable">
             <div className="slick-track">
               <ProfileMetaBlock />
@@ -17,6 +18,7 @@ export default class TopProfiles extends Component {
               <ProfileMetaBlock />
             </div>
           </div>
+          <span className="slick-nexti slick-arrow" style={{ display: "inline" }}></span>
         </div>
       </div>
     )

@@ -4,14 +4,14 @@ import userPic from '../../assets/images/resources/user-pic.png'
 export default class PostTopBar extends Component {
   render() {
     return (
-      <div class="post-topbar">
-        <div class="user-picy">
+      <div className="post-topbar">
+        <div className="user-picy">
           <img src={userPic} alt="" />
         </div>
-        <div class="post-st">
+        <div className="post-st">
           <ul>
-            <li><a class="post_project" href="#" title="">Post a Project</a></li>
-            <li><a class="post-jb active" href="#" title="">Post a Job</a></li>
+            <li><a className="post_project" href="#" title="">Post a Project</a></li>
+            <li><a className="post-jb active" href="#" title="">Post a Job</a></li>
           </ul>
         </div>
       </div>

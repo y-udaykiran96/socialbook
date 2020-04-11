@@ -5,9 +5,9 @@ export default class TopProfiles extends Component {
   render() {
     return (
       <div className="top-profiles">
-        <div class="pf-hd">
+        <div className="pf-hd">
           <h3>Top Profiles</h3>
-          <i class="la la-ellipsis-v"></i>
+          <i className="la la-ellipsis-v"></i>
         </div>
         <div className="profiles-slider slick-initialized slick-slider">
           <span className="slick-previous slick-arrow" style={{ display: "inline" }}></span>

@@ -19,15 +19,15 @@ export default class Header extends Component {
     return (
       <React.Fragment>
         <header>
-          <div class="container">
-            <div class="header-data">
-              <div class="logo">
+          <div className="container">
+            <div className="header-data">
+              <div className="logo">
                 <a href="index.html" title=""><img src={logo} alt="" /></a>
               </div>
-              <div class="search-bar">
+              <div className="search-bar">
                 <form>
                   <input type="text" name="search" placeholder="Search..." />
-                  <button type="submit"><i class="la la-search"></i></button>
+                  <button type="submit"><i className="la la-search"></i></button>
                 </form>
               </div>
               <nav>
@@ -71,100 +71,100 @@ export default class Header extends Component {
 								</a>
                   </li>
                   <li>
-                    <a href="#" title="" class="not-box-openm">
+                    <a href="#" title="" className="not-box-openm">
                       <span><img src={icon6} alt="" /></span>
 									Messages
 								</a>
-                    <div class="notification-box msg" id="message" >
-                      <div class="nt-title">
+                    <div className="notification-box msg" id="message" >
+                      <div className="nt-title">
                         <h4>Setting</h4>
                         <a href="#" title="">Clear all</a>
                       </div>
-                      <div class="nott-list">
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                      <div className="nott-list">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg1} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a> </h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do.</p>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg2} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a></h3>
                             <p>Lorem ipsum dolor sit amet.</p>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg3} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a></h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempo incididunt ut labore et dolore magna aliqua.</p>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="view-all-nots">
+                        <div className="view-all-nots">
                           <a href="messages.html" title="">View All Messsages</a>
                         </div>
                       </div>
                     </div>
                   </li>
                   <li>
-                    <a href="#" title="" class="not-box-open">
+                    <a href="#" title="" className="not-box-open">
                       <span><img src={icon7} alt="" /></span>
 									Notification
 								</a>
-                    <div class="notification-box noti" id="notification" >
-                      <div class="nt-title">
+                    <div className="notification-box noti" id="notification" >
+                      <div className="nt-title">
                         <h4>Setting</h4>
                         <a href="#" title="">Clear all</a>
                       </div>
-                      <div class="nott-list">
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                      <div className="nott-list">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg1} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg2} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg3} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="notfication-details">
-                          <div class="noty-user-img">
+                        <div className="notfication-details">
+                          <div className="noty-user-img">
                             <img src={nyImg2} alt="" />
                           </div>
-                          <div class="notification-info">
+                          <div className="notification-info">
                             <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
-                        <div class="view-all-nots">
+                        <div className="view-all-nots">
                           <a href="#" title="">View All Notification</a>
                         </div>
                       </div>
@@ -172,20 +172,20 @@ export default class Header extends Component {
                   </li>
                 </ul>
               </nav>
-              <div class="menu-btn">
-                <a href="#" title=""><i class="fa fa-bars"></i></a>
+              <div className="menu-btn">
+                <a href="#" title=""><i className="fa fa-bars"></i></a>
               </div>
-              <div class="user-account">
-                <div class="user-info">
+              <div className="user-account">
+                <div className="user-info">
                   <img src={minProfilePic} alt="" />
                   <a href="#" title="">John</a>
-                  <i class="la la-sort-down"></i>
+                  <i className="la la-sort-down"></i>
                 </div>
-                <div class="user-account-settingss" id="users" style={{ "display": "none" }}>
+                <div className="user-account-settingss" id="users" style={{ "display": "none" }}>
                   <h3>Online Status</h3>
-                  <ul class="on-off-status">
+                  <ul className="on-off-status">
                     <li>
-                      <div class="fgt-sec">
+                      <div className="fgt-sec">
                         <input type="radio" name="cc" id="c5" />
                         <label for="c5">
                           <span></span>
@@ -194,7 +194,7 @@ export default class Header extends Component {
                       </div>
                     </li>
                     <li>
-                      <div class="fgt-sec">
+                      <div className="fgt-sec">
                         <input type="radio" name="cc" id="c6" />
                         <label for="c6">
                           <span></span>
@@ -204,20 +204,20 @@ export default class Header extends Component {
                     </li>
                   </ul>
                   <h3>Custom Status</h3>
-                  <div class="search_form">
+                  <div className="search_form">
                     <form>
                       <input type="text" name="search" />
                       <button type="submit">Ok</button>
                     </form>
                   </div>
                   <h3>Setting</h3>
-                  <ul class="us-links">
+                  <ul className="us-links">
                     <li><a href="profile-account-setting.html" title="">Account Setting</a></li>
                     <li><a href="#" title="">Privacy</a></li>
                     <li><a href="#" title="">Faqs</a></li>
                     <li><a href="#" title="">Terms &amp; Conditions</a></li>
                   </ul>
-                  <h3 class="tc"><a href="sign-in.html" title="">Logout</a></h3>
+                  <h3 className="tc"><a href="sign-in.html" title="">Logout</a></h3>
                 </div>
               </div>
             </div>

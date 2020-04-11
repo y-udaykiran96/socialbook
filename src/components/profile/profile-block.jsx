@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import userImage from '../../assets/images/resources/user-pic.png'
 
 export default class ProfileBlock extends Component {
   render() {
@@ -8,7 +7,7 @@ export default class ProfileBlock extends Component {
           <div className="user-profile">
             <div className="username-dt">
               <div className="usr-pic">
-                <img src={userImage} alt="" />
+              <img src={process.env.PUBLIC_URL + "/assets/images/resources/user-pic.png"} alt="" />
               </div>
             </div>
             <div className="user-specs">

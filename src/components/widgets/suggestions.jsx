@@ -10,7 +10,7 @@ export default class Suggestions extends Component {
         </div>
         <div className="suggestions-list">
           <div className="suggestion-usd">
-            <img src="images/resources/s1.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s1.png"} alt="" />
             <div className="sgt-text">
               <h4>Jessica William</h4>
               <span>Graphic Designer</span>
@@ -18,7 +18,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="suggestion-usd">
-            <img src="images/resources/s2.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s2.png"} alt="" />
             <div className="sgt-text">
               <h4>John Doe</h4>
               <span>PHP Developer</span>
@@ -26,7 +26,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="suggestion-usd">
-            <img src="images/resources/s3.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s3.png"} alt="" />
             <div className="sgt-text">
               <h4>Poonam</h4>
               <span>Wordpress Developer</span>
@@ -34,7 +34,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="suggestion-usd">
-            <img src="images/resources/s4.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s4.png"} alt="" />
             <div className="sgt-text">
               <h4>Bill Gates</h4>
               <span>C &amp; C++ Developer</span>
@@ -42,7 +42,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="suggestion-usd">
-            <img src="images/resources/s5.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s5.png"} alt="" />
             <div className="sgt-text">
               <h4>Jessica William</h4>
               <span>Graphic Designer</span>
@@ -50,7 +50,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="suggestion-usd">
-            <img src="images/resources/s6.png" alt="" />
+            <img src={process.env.PUBLIC_URL + "/assets/images/resources/s6.png"} alt="" />
             <div className="sgt-text">
               <h4>John Doe</h4>
               <span>PHP Developer</span>
@@ -58,7 +58,7 @@ export default class Suggestions extends Component {
             <span><i className="la la-plus"></i></span>
           </div>
           <div className="view-more">
-            <a href="#" title="">View More</a>
+            <a href="#main" title="">View More</a>
           </div>
         </div>
       </div>

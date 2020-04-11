@@ -1,18 +1,4 @@
 import React, { Component } from 'react'
-import icon1 from '../assets/images/icon1.png'
-import icon2 from '../assets/images/icon2.png'
-import icon3 from '../assets/images/icon3.png'
-import icon4 from '../assets/images/icon4.png'
-import icon5 from '../assets/images/icon5.png'
-import icon6 from '../assets/images/icon6.png'
-import icon7 from '../assets/images/icon7.png'
-import logo from '../assets/images/logo.png'
-
-import nyImg1 from '../assets/images/resources/ny-img1.png'
-import nyImg2 from '../assets/images/resources/ny-img2.png'
-import nyImg3 from '../assets/images/resources/ny-img3.png'
-
-import minProfilePic from '../assets/images/resources/user.png'
 
 export default class Header extends Component {
   render() {
@@ -22,7 +8,7 @@ export default class Header extends Component {
           <div className="container">
             <div className="header-data">
               <div className="logo">
-                <a href="index.html" title=""><img src={logo} alt="" /></a>
+                <a href="index.html" title=""><img src={process.env.PUBLIC_URL + "/assets/images/logo.png"} alt="" /></a>
               </div>
               <div className="search-bar">
                 <form>
@@ -34,13 +20,13 @@ export default class Header extends Component {
                 <ul>
                   <li>
                     <a href="index.html" title="">
-                      <span><img src={icon1} alt="" /></span>
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon1.png"} alt="" /></span>
 									Home
 								</a>
                   </li>
                   <li>
                     <a href="companies.html" title="">
-                      <span><img src={icon2} alt="" /></span>
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon2.png"} alt="" /></span>
 									Companies
 								</a>
                     <ul>
@@ -50,13 +36,13 @@ export default class Header extends Component {
                   </li>
                   <li>
                     <a href="projects.html" title="">
-                      <span><img src={icon3} alt="" /></span>
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon3.png"} alt="" /></span>
 									Projects
 								</a>
                   </li>
                   <li>
                     <a href="profiles.html" title="">
-                      <span><img src={icon4} alt="" /></span>
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon4.png"} alt="" /></span>
 									Profiles
 								</a>
                     <ul>
@@ -66,24 +52,24 @@ export default class Header extends Component {
                   </li>
                   <li>
                     <a href="jobs.html" title="">
-                      <span><img src={icon5} alt="" /></span>
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon5.png"} alt="" /></span>
 									Jobs
 								</a>
                   </li>
                   <li>
-                    <a href="#" title="" className="not-box-openm">
-                      <span><img src={icon6} alt="" /></span>
+                    <a href="#main" title="" className="not-box-openm">
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon6.png"} alt="" /></span>
 									Messages
 								</a>
                     <div className="notification-box msg" id="message" >
                       <div className="nt-title">
                         <h4>Setting</h4>
-                        <a href="#" title="">Clear all</a>
+                        <a href="#main" title="">Clear all</a>
                       </div>
                       <div className="nott-list">
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg1} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img1.png"} alt="" />
                           </div>
                           <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a> </h3>
@@ -93,7 +79,7 @@ export default class Header extends Component {
                         </div>
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg2} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img2.png"} alt="" />
                           </div>
                           <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a></h3>
@@ -103,7 +89,7 @@ export default class Header extends Component {
                         </div>
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg3} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img3.png"} alt="" />
                           </div>
                           <div className="notification-info">
                             <h3><a href="messages.html" title="">Jassica William</a></h3>
@@ -118,54 +104,54 @@ export default class Header extends Component {
                     </div>
                   </li>
                   <li>
-                    <a href="#" title="" className="not-box-open">
-                      <span><img src={icon7} alt="" /></span>
+                    <a href="#main" title="" className="not-box-open">
+                      <span><img src={process.env.PUBLIC_URL + "/assets/images/icon7.png"} alt="" /></span>
 									Notification
 								</a>
                     <div className="notification-box noti" id="notification" >
                       <div className="nt-title">
                         <h4>Setting</h4>
-                        <a href="#" title="">Clear all</a>
+                        <a href="#main" title="">Clear all</a>
                       </div>
                       <div className="nott-list">
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg1} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img1.png"} alt="" />
                           </div>
                           <div className="notification-info">
-                            <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                            <h3><a href="#main" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg2} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img2.png"} alt="" />
                           </div>
                           <div className="notification-info">
-                            <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                            <h3><a href="#main" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg3} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img3.png"} alt="" />
                           </div>
                           <div className="notification-info">
-                            <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                            <h3><a href="#main" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
                         <div className="notfication-details">
                           <div className="noty-user-img">
-                            <img src={nyImg2} alt="" />
+                            <img src={process.env.PUBLIC_URL + "/assets/images/ny-img2.png"} alt="" />
                           </div>
                           <div className="notification-info">
-                            <h3><a href="#" title="">Jassica William</a> Comment on your project.</h3>
+                            <h3><a href="#main" title="">Jassica William</a> Comment on your project.</h3>
                             <span>2 min ago</span>
                           </div>
                         </div>
                         <div className="view-all-nots">
-                          <a href="#" title="">View All Notification</a>
+                          <a href="#main" title="">View All Notification</a>
                         </div>
                       </div>
                     </div>
@@ -173,12 +159,12 @@ export default class Header extends Component {
                 </ul>
               </nav>
               <div className="menu-btn">
-                <a href="#" title=""><i className="fa fa-bars"></i></a>
+                <a href="#main" title=""><i className="fa fa-bars"></i></a>
               </div>
               <div className="user-account">
                 <div className="user-info">
-                  <img src={minProfilePic} alt="" />
-                  <a href="#" title="">John</a>
+                  <img src={process.env.PUBLIC_URL + "/assets/images/resources/user.png"} alt="" />
+                  <a href="#main" title="">John</a>
                   <i className="la la-sort-down"></i>
                 </div>
                 <div className="user-account-settingss" id="users" style={{ "display": "none" }}>
@@ -213,9 +199,9 @@ export default class Header extends Component {
                   <h3>Setting</h3>
                   <ul className="us-links">
                     <li><a href="profile-account-setting.html" title="">Account Setting</a></li>
-                    <li><a href="#" title="">Privacy</a></li>
-                    <li><a href="#" title="">Faqs</a></li>
-                    <li><a href="#" title="">Terms &amp; Conditions</a></li>
+                    <li><a href="#main" title="">Privacy</a></li>
+                    <li><a href="#main" title="">Faqs</a></li>
+                    <li><a href="#main" title="">Terms &amp; Conditions</a></li>
                   </ul>
                   <h3 className="tc"><a href="sign-in.html" title="">Logout</a></h3>
                 </div>

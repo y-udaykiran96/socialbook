@@ -2,9 +2,12 @@ import React, { Component } from 'react'
 // import logo from './logo.svg';
 import './App.css';
 import { Switch, Route } from 'react-router'
-import { BrowserRouter } from 'react-router-dom'
 
+import Header from '../components/common/header'
+import LeftSideBar from '../components/common/leftSidebar'
 import Home from '../components/home/home';
+import Content from '../components/common/content'
+import RightSideBar from '../components/common/rightSideBar'
 
 export default class App extends Component {
 
@@ -20,11 +23,16 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-
-        <Switch>
-          <Route path="/home" component={Home} />
-        </Switch>
+      <div className="App fdc">
+          <Header />
+        <div className="wrapper fl1 fdr">
+        <LeftSideBar />
+          {/* <Switch>
+          <Route path="/" component={Home} />
+        </Switch> */}
+          <Content />
+        <RightSideBar />
+        </div>
       </div>
     )
   }

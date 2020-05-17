@@ -1,0 +1,15 @@
+.list-group .top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding: 0;
+  border: 0;
+} 
+
+.side-menu {
+  overflow: hidden;
+  /* height: 100vh; */
+}
+
+#list-tab {
+  height: 100%;
+}

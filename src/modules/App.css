@@ -10,7 +10,89 @@
 @import 'assets/css/style.css';
 @import 'assets/css/responsive.css'; */
 
+body {
+  /* overflow-y: hidden; */
+}
 
+p {
+  text-align: justify;
+}
+
+#root {
+  /* overflow: hidden; */
+}
+
+
+.App {
+  /* text-align: center; */
+  display: flex;
+  /* overflow: hidden; */
+
+}
+
+.App .wrapper {
+  display: flex;
+  /* overflow: hidden; */
+  /* border: 5px solid grey; */
+  max-height: calc(100vh - 54px);
+}
+
+.App .sidebar {
+  width: 18%;
+}
+
+.fl {
+  display: flex;
+  overflow-y: hidden;
+}
+
+.fl1 {
+  flex: 1;
+}
+
+.fdc {
+  flex-direction: column;
+}
+
+.fdr {
+  flex-direction: row;
+}
+
+.v-scroll {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.v-scroll::-webkit-scrollbar {
+  opacity:0;
+  width: 5px;
+  /* display: none; */
+  /* background: transparent; */
+}
+
+.v-scroll:hover::-webkit-scrollbar-track {
+  /* background: #ddd; */
+}
+
+
+.v-scroll:hover::-webkit-scrollbar{
+  /* display: block; */
+  opacity: 1;
+}
+ 
+.v-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgba(102, 102, 102, 0.527); 
+}
+
+
+.h-scroll {
+  overflow-x: scroll;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
 
 /* .App {
   text-align: center;
